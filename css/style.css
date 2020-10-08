@@ -1,0 +1,35 @@
+/* img {
+    width: 100%;
+} */
+a {
+    text-decoration: none;
+    color: #333333;
+}
+li {
+    list-style: none;
+}
+/* Brands style */
+#brand_section .row img {
+    width: 100%;
+}
+
+/* Journal_section style */
+#journal_section img {
+    width: 100%;
+}
+
+/* Footer style */
+#main_footer {
+    background: #F5F5F3;
+}
+#main_footer li {
+    color: #6D6D6D;
+    line-height: 25px;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
