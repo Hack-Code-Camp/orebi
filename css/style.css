@@ -24,15 +24,15 @@ body{
     font-weight: bolder;
     font-size: 1rem;
 }
-#t{
+#search{
     width: 30rem;
     height: 1.5rem;
     border: #ffff;
 }
-#t::placeholder{
+#search::placeholder{
     padding: 1rem;
     color: #C4C4C4;
-    background-image: url(/images/home/Icon.svg);
+    background-image: url(/home/Icon.svg);
     background-position: 28rem;
     background-repeat: no-repeat;
     background-size: .7rem;
@@ -50,7 +50,7 @@ body{
     width: .6rem;
     background-color: black;
 }
-#qw{
+#category{
     color: #262626;
 }
 .shop{
@@ -59,7 +59,7 @@ body{
 
 /* SHOWCASE */
 #showcase{
-     background-image: url(/images/home/Image-17.png); 
+     background-image: url(/home/Image-17.png); 
      background-size: 208vh 70vh;
      background-repeat: no-repeat;
      height: 70vh;
