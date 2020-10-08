@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 * {
@@ -11,7 +12,21 @@ body {
     color: #262626;
 }
 
-
+a {
+    text-decoration: none;
+    color: #333333;
+}
+li {
+    list-style: none;
+}
+/* Product grid */
+.overlay-text {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    background: #262626;
+}
+/* Phone-showcase section */
 #phone-showcase .row {
     background: url(../home/Image-6.png) no-repeat;
     height: 45vh;
@@ -24,9 +39,30 @@ body {
 #phone-showcase img {
     position: relative;
 }
-.overlay-text {
-    position: absolute;
-    top: 10px;
-    left: 25px;
-    background: #262626;
+
+
+/* Brands style */
+#brand_section .d-flex img {
+    width: 100%;
+}
+
+
+/* Journal_section style */
+#journal_section img {
+    width: 100%;
+}
+
+/* Footer style */
+#main_footer {
+    background: #F5F5F3;
+}
+#main_footer li {
+    color: #6D6D6D;
+    line-height: 25px;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
 }
