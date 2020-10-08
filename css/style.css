@@ -1,6 +1,4 @@
-/* img {
-    width: 100%;
-} */
+
 a {
     text-decoration: none;
     color: #333333;
@@ -8,10 +6,13 @@ a {
 li {
     list-style: none;
 }
+
+
 /* Brands style */
-#brand_section .row img {
+#brand_section .d-flex img {
     width: 100%;
 }
+
 
 /* Journal_section style */
 #journal_section img {
@@ -26,7 +27,6 @@ li {
     color: #6D6D6D;
     line-height: 25px;
 }
-
 .pull-left {
     float: left;
 }
