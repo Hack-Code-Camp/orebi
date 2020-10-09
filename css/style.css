@@ -17,24 +17,23 @@ a {
     text-decoration: none;
     color: #333333;
 }
+a:hover {
+    text-decoration: none;
+    color: #262626;
+}
+
 li {
     list-style: none;
 }
 
 /* navigation bar */
-#nav{
-    font-size: .7rem;
-}
-#nav-1{
-    font-size: x-small;
-}
 #bold{
     font-weight: bolder;
     font-size: 1rem;
 }
 #search{
     width: 30rem;
-    height: 1.5rem;
+    /* height: 1.5rem; */
     border: #ffff;
 }
 #search::placeholder{
@@ -62,7 +61,7 @@ li {
     color: #262626;
 }
 .shop{
-    font-size: .7rem;
+    font-size: 14px;
 }
 
 /* SHOWCASE */
@@ -88,21 +87,22 @@ li {
     width: .2rem;
     background-color: black;
 }
-#final{
-    color: black;
-    font-size: 1.5rem;
-    font-family: DMSans-Bold;
-}
+
 #up{
     color: #6D6D6D;
-    font-size: .7rem;
 }
 #up span{
-    color: black;
     font-size: 1.5rem;
 }
 .asd{
     height: 70vh;
+}
+#below-showcase p {
+    color: #6D6D6D;
+}
+#below-showcase span {
+    font-size: 23px;
+    font-weight: bold;
 }
 
 /* Product grid */
