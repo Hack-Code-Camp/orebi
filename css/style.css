@@ -60,9 +60,9 @@ body{
 /* SHOWCASE */
 #showcase{
      background-image: url(/home/Image-17.png); 
-     background-size: 208vh 70vh;
+     background-size: 208vh 60vh;
      background-repeat: no-repeat;
-     height: 70vh;
+     height: 60vh;
      
 }
 #btn{
@@ -94,5 +94,16 @@ body{
     font-size: 1.5rem;
 }
 .asd{
-    height: 70vh;
+    height: 60vh;
+}
+header{
+    border-bottom: thin solid #F0F0F0;
+
+}
+#last{
+    font-size: .7rem;
+}
+#bold{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
