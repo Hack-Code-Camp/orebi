@@ -1,32 +1,39 @@
-*{
-    margin: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-  
-/* utiliy style */
 
-li{
-    list-style: none;
-}
-body{
+body {
+    font-size: 16px;
+    color: #262626;
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    text-decoration: none;
+    color: #262626;
+}
+
+li {
+    list-style: none;
+}
+
 /* navigation bar */
-#nav{
-    font-size: .7rem;
-}
-#nav-1{
-    font-size: x-small;
-}
 #bold{
     font-weight: bolder;
     font-size: 1rem;
 }
 #search{
     width: 30rem;
-    height: 1.5rem;
+    /* height: 1.5rem; */
     border: #ffff;
 }
 #search::placeholder{
@@ -54,7 +61,7 @@ body{
     color: #262626;
 }
 .shop{
-    font-size: .7rem;
+    font-size: 14px;
 }
 
 /* SHOWCASE */
@@ -80,17 +87,11 @@ body{
     width: .2rem;
     background-color: black;
 }
-#final{
-    color: black;
-    font-size: 1.5rem;
-    font-family: DMSans-Bold;
-}
+
 #up{
     color: #6D6D6D;
-    font-size: .7rem;
 }
 #up span{
-    color: black;
     font-size: 1.5rem;
 }
 .asd{
@@ -107,3 +108,61 @@ header{
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+#below-showcase p {
+    color: #6D6D6D;
+}
+#below-showcase span {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* Product grid */
+.overlay-text {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    background: #262626;
+}
+/* Phone-showcase section */
+#phone-showcase .row {
+    background: url(../home/Image-6.png) no-repeat;
+    height: 45vh;
+}
+
+#phone-showcase p {
+    color: #FFFFFFB4;
+} 
+
+#phone-showcase img {
+    position: relative;
+}
+
+
+/* Brands style */
+#brand_section .d-flex img {
+    width: 100%;
+}
+
+
+/* Journal_section style */
+#journal_section img {
+    width: 100%;
+}
+
+/* Footer style */
+#main_footer {
+    background: #F5F5F3;
+}
+#main_footer li {
+    color: #6D6D6D;
+    line-height: 25px;
+}
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+}
+
+

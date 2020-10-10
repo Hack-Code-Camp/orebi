@@ -6,17 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">  
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
     <title>Home</title>
+
   </head>
   <body>
-
-
-
     <!-- NAVIGATION SECTION -->
 
     <div id="navigation">
@@ -27,33 +26,29 @@
           <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link px-3" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
+                <a class="nav-link px-3" href="#">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link px-3" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link px-3" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Journal</a>
+                <a class="nav-link px-3" href="#">Journal</a>
               </li>
             </ul>
             <ul class="navbar-nav" id="nav-1">
-              <li class="mr-1">EN</li>
-              <li>RU</li>
+              <li><a href="#" class="pr-1">EN</a></li>
+              <li><a href="#" class="pl-2 text-secondary">RU</a></li>
             </ul>
           </div>
         </nav>
     </div>
     </div>
-
-
-
-
 
 
     <!-- search bar -->
@@ -71,7 +66,7 @@
        
         <div class="collapse navbar-collapse" id="nav">
           <ul class="navbar-nav mx-auto">
-           <input type="text" id="search" class="ml-5" placeholder="search products" >
+           <input type="text" id="search" class="ml-5 p-2 small" placeholder="Search Products" >
           </ul>
           <ul class="navbar-nav ml-auto">
             <li><img src="home/Shape.svg" alt="" class="mr-1"></li>
@@ -82,47 +77,314 @@
      </div>
     </div>
 
-
-
-    
     <!-- SHOWCASE SECTION -->
-    <header class="pb-1">
-      <div id="showcase">
-        <div class="container">
-          <div class="row align-items-center asd">
-            
-            <div class="col-1 pl-5">
-              <div id="bar">
-              <div></div>
-              </div>
+
+    <header id="showcase">
+      <div class="container">
+        <div class="row align-items-center asd">
+          
+          <div class="col-1 pl-5">
+            <div id="bar">
+            <div></div>
             </div>
-    
-           <div class="col-4 header-content">
-            <h1 id="final">FINAL OFFER</h1>
-            <p id="up">Up to <span>50%</span> sale for all furniture items!</p>
-            <button class="btn" id="btn">Shop Now</button>
-           </div>
           
           </div>
-        </div>
-      </div>
-
-      <div class="container " id="last">
-        <div class="row">
-          <span class="col-2"><span id="bold" class="pr-1">2</span><span> Two years warranty</span></span>
-          <span class="col-3"></span>
-          <span class="col-2 pt-3"> <img src="/home/truck-solid.svg" alt="" class="pr-2"  height="20px"><span> Free shipping</span></span>
-          <span class="col-3"></span>
-          <span class="col-2 pt-3"> <img src="/home/undo-alt-solid.svg" alt="" class="pr-2" height="20px" ><span>Return policy in 30days</span></span>
+  
+         <div class="col-4 header-content pl-5">
+          <h2 id="final">Final Offer</h2>
+          <p id="up" class="small">Up to <span class="text-body">50%</span> sale for all furniture items!</p>
+          <button class="btn rounded-0 px-4 my-2" id="btn">Shop Now</button>
+         </div>
+        
         </div>
       </div>
     </header>
-   
+
+    <section id="below-showcase" class="border-bottom">
+    <div class="container">
+      <div class="row px-2">
+        <div class="col-md-4 pt-2">
+          
+            <p class="small"><span class="text-body pr-1">2</span> Two years warranty</p>
+
+        </div>
+        <div class="col-md-4 pt-3 text-center">         
+                 
+          <p class="small"> <img src="home/truck-solid.svg" alt="truck" class="pr-2"> Free shipping</p>
+          
+        </div>
+        <div class="col-md-4 pt-3 text-right">
+
+            <p class="small"> <img src="home/undo-alt-solid.svg" alt="undo-alt" class="pr-2"> Return policy in 30 days</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
     
+<!-- Our Bestsellers Section -->
+    <section id="bestsellers">
+        <div class="container">
+            <div class="row">
+                <h3 class="p-3">Our Bestsellers</h3>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-3">
+                        <div class="img-overlay">
+                            <img src="home/Image-11.png" class="card-img" alt="basic-crew-neck-tee">
+                            <p class="overlay-text text-white py-1 px-4">New</p>
+                        </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                        
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-10.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-8.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-7.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phone Showcase Section -->
+    <section id="phone-showcase">
+        <div class="container">
+            <div class="row p-5 mx-1 my-5">
+                <div class="col-5 d-none d-md-block"></div>
+                <div class="col-md-5">
+                    <h3 class="text-white pb">Phone of the year</h3>
+                    <p class="py-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum..</p>
+                    <a href="#" class="btn btn-light px-5 rounded-0">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <!-- Special Offers -->
+    <section id="special-offers">
+        <div class="container">
+            <div class="row">
+                <h3 class="p-3">Special Offers</h3>
+            </div>
+            <div class="row pt-3">
+                <div class="col-md-3">
+                        <div class="img-overlay">
+                            <img src="home/Image-9.png" class="card-img" alt="basic-crew-neck-tee">
+                            <p class="overlay-text text-white py-1 px-4">New</p>
+                        </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                        
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-4.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
 
-   
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-5.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="img-overlay">
+                        <img src="home/Image-3.png" class="card-img" alt="basic-crew-neck-tee">
+                        <p class="overlay-text text-white py-1 px-4">New</p>
+                    </div>                        
+                    <div class="row pt-2">
+                        <div class="col-9">
+                            <p>Basic Crew Neck Tee</p>
+                        </div>
+                    
+                        <div class="col-3">
+                            <p class="small">$44.00</p>
+                        </div>
+                    </div>
+                    <p class="small">Black</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="brand_section">
+      <div class="container mt-5">
+        <h3>Brands We Love</h3>
+        <div class="row">
+          <p class="col-md-5 py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore tempor sed do magna aliqua.
+          </p>
+        </div>
+        <div class="d-flex flex-row bd-highlight mb-3">
+          <div class="bd-highlight"><img src="home/Logo_1.svg" alt=""></div>
+          <div class="bd-highlight"><img src="home/Logo_2.png" alt=""></div>
+          <div class="bd-highlight"><img src="home/Logo_3.png" alt=""></div>
+          <div class="bd-highlight"><img src="home/Logo_4.svg" alt=""></div>
+          <div class="bd-highlight"><img src="home/Logo_2.png" alt=""></div>
+        </div>
+    </section>
+
+    <section id="journal_section">
+      <div class="container mt-5">
+        <h3 class="py-3">Journal</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="home/Image-2.png" alt="Image-2">
+            <h6 class="pt-4">Category</h6>
+            <h5 class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="home/Image-1.png" alt="Image-1">
+            <h6 class="pt-4">Category</h6>
+            <h5 class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="home/Image.png" alt="Image">
+            <h6 class="pt-4">Category</h6>
+            <h5 class="my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main_footer">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-2">
+              <h5 class="py-5">MENU</h5> 
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Journal</a></li> 
+            </div>
+            <div class="col-md-2">
+              <h5 class="py-5">SHOP</h5>
+              <li><a href="#">Category 1</a></li>
+              <li><a href="#">Category 2</a></li>
+              <li><a href="#">Category 3</a></li>
+              <li><a href="#">Category 4</a></li>
+              <li><a href="#">Category 5</a></li>
+            </div>
+            <div class="col-md-2">
+              <h5 class="py-5">HELP</h5>
+              <li><a href="#">Privay Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Special E-shop</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Secure Payments</a></li>
+            </div>
+            <div class="col-md-3">
+              <h5 class="py-5">(052) 611-5711
+                company@domain.com
+              </h5>
+              <p>575 Crescent Ave. Quakertown, PA 18951</p>
+            </div>
+            <div class="col-md-3">
+              
+            </div>
+          </div>
+          <div>
+            <p class="pul-left pt-5">
+              <a href="#" class=""><img src="home/Facebook.svg" alt="Facebook"></a>
+              <a href="#" class="mx-4"><img src="home/Linkedin.svg" alt="Linkedin"></a>
+              <a href="#"><img src="home/instagram-brands.svg" alt="instagram-brands"></a>
+            </p>
+          </div>
+          <div>
+            <p class="pull-right">2020 Orebi Minimal eCommerce Adobe XD Template by Adveits</p>
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+      </footer>
 
 
     <!-- Optional JavaScript -->
