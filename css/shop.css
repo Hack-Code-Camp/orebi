@@ -63,9 +63,56 @@ li {
     font-size: 14px;
 }
 
+/* Product */
 
 
+#products{
+    color: #262626;
+    font-size: 49px;
+    font-family: DMSans-Bold;
+}
+#small{
+    font-size: 12px;
+    color: #767676;
+}
 
+/* Shop By Category */
+
+#shopByCategory span{
+ padding-left: 8rem;
+}
+.line{
+    border-bottom: thin solid #f0f0f0;
+    margin-right: 56rem;
+    color: #767676;
+    font-size: 16px;
+    font-family: DMSans-Regular;
+}
+
+/* Shop BY Color */
+#path{
+    padding-left: 6rem;
+}
+#color1{
+    background-color: black;
+}
+#color2{
+    background-color: #FF8686;
+}
+#color3{
+    background-color: #7ED321;
+}
+#color4{
+    background-color: #B6B6B6;
+}
+#color5{
+    background-color: #15CBA5;
+}
+#shopByColor button{
+    height: .5rem;
+    width: .5rem;
+    border: none;
+}
 
 
 
