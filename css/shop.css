@@ -114,6 +114,36 @@ li {
     border: none;
 }
 
+/* Bootstrap Utilities for the sections */
+
+.card {
+    border: none;
+}
+
+.card-title {
+    background-color: #262626;
+    padding: .5rem;
+    width: 70px;
+}
+.pagination li a {
+    color: #262626;
+}
+.pagination .one a {
+    color: #ffffff;
+    background-color: #262626;
+}
+
+.pull-left {
+    float: left;
+    color: #262626;
+}
+.pull-right {
+    float: right;
+    color: #767676;
+}
+.black {
+    color: #767676;
+}
 
 
 
