@@ -158,11 +158,12 @@ header{
     color: #6D6D6D;
     line-height: 25px;
 }
-.pull-left {
-    float: left;
+.parent-div{
+    display: flex;
+    justify-content: space-between;
 }
-.pull-right {
-    float: right;
+.rights-reserved {
+    font-size: .8rem;
 }
 
 
