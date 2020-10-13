@@ -111,17 +111,11 @@ li {
     border: none;
 }
 
-/* Bootstrap Utilities for the sections */
-
-.card {
-    border: none;
+/* Product gallery section */
+#bestsellers .small {
+    color: #767676;
 }
 
-.card-title {
-    background-color: #262626;
-    padding: .5rem;
-    width: 70px;
-}
 .pagination li a {
     color: #262626;
 }
@@ -142,6 +136,13 @@ li {
     color: #767676;
 }
 
+/* Product grid */
+.overlay-text {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    background: #262626;
+}
 
 
 /* Footer style */
