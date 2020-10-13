@@ -110,7 +110,24 @@ li {
     width: .5rem;
     border: none;
 }
+/*ShopByBrand*/
 
+#shopByBrand{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.line{
+    border-bottom: thin solid #f0f0f0;
+    margin-right: 56rem;
+    color: #767676;
+    font-size: 16px;
+    font-family: DMSans-Regular;
+}
+/*ShopByPrice*/
+#shopByPrice{
+
+}
 /* Bootstrap Utilities for the sections */
 
 .card {
