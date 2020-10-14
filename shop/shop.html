@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="shop.css">
 
     <title>Shop</title>
 
@@ -33,7 +33,7 @@
                   <a class="nav-link px-3" href="#">Shop</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link px-3" href="#">About</a>
+                  <a class="nav-link px-3" href="../about/about.html">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link px-3" href="#">Contact</a>
@@ -86,7 +86,7 @@
         </div>
       </div>
 
-  <aside class="position-absolute" style="left: 8%;">
+  <aside class="position-absolute" style="left: 8%; width: 20%;">
     <div class="container">
     <!-- Shop By Category -->
       <div id="shopByCategory" class="">
@@ -155,7 +155,7 @@
   </div>
       
       <!-- Shop By Price -->
-<div id="shopByPrice">    
+<div id="shopByPrice" class="mt-5">    
   <div class="mb-4">
       <h6>Shop by Price</h6>
    </div>
@@ -193,9 +193,15 @@
                   <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
                 </svg>
               </div>
-              <div class="col-md-6 text-md-right text-center">
+              <div id="dropdowns" class="col-md-6 text-md-right text-center">
                 <label for="sort">Sort by:</label>
-
+                <select class="rounded-0 border pxy-1 pl-2 pr-5 ml-2 mb-3">
+                  <option selected class="small p-3">Featured</option>
+                </select>
+                <label for="show" class="pl-2">Show:</label>
+                <select class="rounded-0 border  pxy-1 pl-2 pr-5 ml-2 mb-3">
+                  <option selected class="small p-3">36</option>
+                </select>
               </div>
           </div>
           <div class="row pt-3">
@@ -435,11 +441,6 @@
       </div>
   </section>
   
-  
-  
-  
-
-
 
 <!-- Main-Footer -->
 <footer id="main_footer">
