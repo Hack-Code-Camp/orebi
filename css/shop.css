@@ -76,7 +76,7 @@ li {
 /* Shop By Category */
 
 #shopByCategory span{
- padding-left: 8rem;
+ padding-left: 9rem;
 }
 .line{
     border-bottom: thin solid #f0f0f0;
@@ -110,12 +110,23 @@ li {
     width: .5rem;
     border: none;
 }
+/*ShopByBrand*/
+
 
 /* Product gallery section */
 #bestsellers .small {
     color: #767676;
+
+#shopByBrand{
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 
+/*ShopByPrice*/
+#shopByPrice{
+}
+  
+/* Bootstrap Utilities for the sections */
 .pagination li a {
     color: #262626;
 }
