@@ -158,12 +158,5 @@ header{
     color: #6D6D6D;
     line-height: 25px;
 }
-.parent-div{
-    display: flex;
-    justify-content: space-between;
-}
-.rights-reserved {
-    font-size: .8rem;
-}
 
 

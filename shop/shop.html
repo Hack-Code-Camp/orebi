@@ -87,9 +87,10 @@
         </div>
       </div>
 
-      <!-- Shop By Category -->
-    <aside id="shopByCategory">
-      <div class="container">
+  <aside class="position-absolute" style="left: 8%;">
+    <div class="container">
+    <!-- Shop By Category -->
+      <div id="shopByCategory" class="">
         <div class="mb-4">
           <h6>Shop by Category</h6>
         </div>
@@ -109,12 +110,9 @@
           Category 5
         </div>
       </div>
-    </aside>
-      
-
+           
     <!-- Shop By Color -->
-    <aside id="shopByColor" class="mt-5">
-      <div class="container">
+      <div id="shopByColor" class="mt-5">
         <div class="mb-4">
           <h6>Shop by Color <img src="Path.png" alt="" id="path"></h6>
         </div>
@@ -134,16 +132,28 @@
           <button id="color5" class="rounded-circle"></button> <span class="pl-1">Color 5</span>
         </div>
       </div>
-    </aside>
+    </div>    
+  </aside>
 
 
     <!-- Products gallery section -->
-    <section id="bestsellers">
+    <section id="bestsellers" class="position-relative" >
       <div class="container">
           <div class="row">
-              <div class="col-md-3"></div>
               <div class="col-md-3">
                 
+              </div>
+              <div class="col-md-3">
+                <svg  class="mr-3 bg-dark text-white p-2" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-grid" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                </svg>
+                <svg class="border p-1" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-ul" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                </svg>
+              </div>
+              <div class="col-md-6 text-md-right text-center">
+                <label for="sort">Sort by:</label>
+
               </div>
           </div>
           <div class="row pt-3">
@@ -393,7 +403,7 @@
 <footer id="main_footer">
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 text-md-left text-center">
         <h5 class="py-5">MENU</h5> 
         <li><a href="#">Home</a></li>
         <li><a href="#">Shop</a></li>
@@ -401,7 +411,7 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#">Journal</a></li> 
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 text-md-left text-center">
         <h5 class="py-5">SHOP</h5>
         <li><a href="#">Category 1</a></li>
         <li><a href="#">Category 2</a></li>
@@ -409,7 +419,7 @@
         <li><a href="#">Category 4</a></li>
         <li><a href="#">Category 5</a></li>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 text-md-left text-center">
         <h5 class="py-5">HELP</h5>
         <li><a href="#">Privay Policy</a></li>
         <li><a href="#">Terms & Conditions</a></li>
@@ -417,27 +427,26 @@
         <li><a href="#">Shipping</a></li>
         <li><a href="#">Secure Payments</a></li>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 text-md-left text-center">
         <h5 class="py-5">(052) 611-5711
           company@domain.com
         </h5>
         <p>575 Crescent Ave. Quakertown, PA 18951</p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 text-md-left text-center">
         
       </div>
     </div>
    
-  <div class="parent-div py-5">
-    <div>
-      <p>
-        <a href="#" class=""><img src="../home/Facebook.svg" alt="Facebook"></a>
-        <a href="#" class="mx-4"><img src="../home/Linkedin.svg" alt="Linkedin"></a>
-        <a href="#"><img src="../home/instagram-brands.svg" alt="instagram-brands"></a>
-      </p>
+  <div class="row py-5">
+    <div class="col-md-3 text-md-left text-center pb-3">
+          <a href="#" class=""><img src="../home/Facebook.svg" alt="Facebook"></a>
+          <a href="#" class="mx-4"><img src="../home/Linkedin.svg" alt="Linkedin"></a>
+          <a href="#"><img src="../home/instagram-brands.svg" alt="instagram-brands"></a>
     </div>
-    <div>
-      <p class="rights-reserved">2020 Orebi Minimal eCommerce Adobe XD Template by Adveits</p>
+    <div class="col-md-3 d-none d-sm-block"></div>
+    <div class="col-md-6 text-md-right text-center ">
+      <p class="small">2020 Orebi Minimal eCommerce Adobe XD Template by Adveits</p>
     </div>
   </div>
 </div>
