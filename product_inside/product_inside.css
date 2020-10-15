@@ -25,6 +25,32 @@ li {
     list-style: none;
 }
 
+/* Bootstrap utilities */
+.five-stars svg {
+    color: #FFD881;
+}
+.color-1 {
+    color: #000000;
+}
+.color-circles .color-2 {
+    color: #FF8686;
+}
+.color-3{
+    color: #7ED321;
+}
+.color-4 {
+    color: #B6B6B6;
+}
+.color-5 {
+    color: #15CBA5;
+}
+.btn {
+    border: 1px solid #333333;
+}
+/* .dropdown {
+    padding-left: 10rem;
+} */
+
 /* navigation bar */
 #bold{
     font-weight: bolder;
@@ -63,7 +89,29 @@ li {
     font-size: 14px;
 }
 
+/* Product */
 
+
+#products{
+    font-weight: 400;
+}
+#small{
+    color: #767676;
+}
+
+/* Section style */
+#main-section img {
+    width: 100%;
+}
+
+/* product-section style  */
+span{
+    padding-left: 9rem;
+}
+.line{
+   border-bottom: thin solid #f0f0f0;
+   color: #767676;
+}
 
 
 /* Footer style */
