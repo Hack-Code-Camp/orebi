@@ -7,6 +7,7 @@
 }
 
 body {
+    background-color: #FFFFF;
     font-size: 16px;
     color: #262626;
     overflow-x: hidden;
@@ -23,6 +24,9 @@ a:hover {
 
 li {
     list-style: none;
+}
+.small {
+    color: #767676;
 }
 
 /* navigation bar */
@@ -63,7 +67,10 @@ li {
     font-size: 14px;
 }
 
-
+iframe {
+    width: 100%;
+    height: 400px;
+}
 
 
 /* Footer style */
