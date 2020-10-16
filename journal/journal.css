@@ -24,6 +24,9 @@ a:hover {
 li {
     list-style: none;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: DMSans-Bold;
+}
 
 /* navigation bar */
 #bold{
@@ -62,9 +65,59 @@ li {
 .shop{
     font-size: 14px;
 }
+/* Header */
+#Header span{
+font-size: .5rem;
+color: #6D6D6D;
+}
+/* Journal body */
 
+.category{
+    color: #262626;
+    font-size: .8rem;
+}
+#lorem{
+    font-size: .7rem;
+    color: #767676;
+}
+.lorem{
+    color: #262626;
+    font-weight: 500;
+}
+#button{
+    color: #FFFF;
+    background: #262626;
+    font-size: .7rem;
+}
+#text{
+    border: none;
+    border-bottom: thin solid #F0F0F0;
+    width: 21rem;
+    padding-bottom: .3rem;
+}
+#text::placeholder{
+    color: #767676;
+    font-size: .7rem;
+    background-image: url(../shop/search-solid.svg);
+    background-position: 20rem;
+    background-repeat: no-repeat;
+    background-size: .7rem;
+}
 
-
+#list li, #may, #categories li, #meta li{
+    font-size: .6rem;
+    list-style: disc;
+    border-bottom: thin solid #F0F0F0;
+    list-style-position: inside;
+}
+#list span{
+    color: #767676;
+}
+#tags button{
+    color: #FFFF;
+    background-color: #262626;
+    font-size: .5rem;
+}
 
 /* Footer style */
 #main_footer {
