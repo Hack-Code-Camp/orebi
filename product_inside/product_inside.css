@@ -25,6 +25,38 @@ li {
     list-style: none;
 }
 
+input{
+    border: none;
+}
+
+/* Bootstrap utilities */
+.five-stars svg {
+    color: #FFD881;
+    width: 10px;
+}
+.color-circles svg {
+    width: 10px;
+}
+.color-1 {
+    color: #000000;
+}
+.color-2 {
+    color: #FF8686;
+}
+.color-3{
+    color: #7ED321;
+}
+.color-4 {
+    color: #B6B6B6;
+}
+.color-5 {
+    color: #15CBA5;
+}
+.btn {
+    border: 1px solid #333333;
+}
+
+
 /* navigation bar */
 #bold{
     font-weight: bolder;
@@ -63,7 +95,42 @@ li {
     font-size: 14px;
 }
 
+/* Product */
+#products{
+    font-weight: 400;
+}
+#small{
+    color: #767676;
+}
 
+/* Section style */
+#main-section img {
+    width: 100%;
+}
+
+/* product-section style  */
+.line{
+   border-bottom: thin solid #f0f0f0;
+   color: #767676;
+   width: 50%;
+}
+.long-line {
+    border-bottom: thin solid #f0f0f0;
+    color: #767676;
+}
+
+.money span {
+    text-decoration: line-through;
+}
+
+.shipping span {
+    padding-left: 31rem;
+    font-weight: 900;
+}
+.features span {
+    padding-left: 31.5rem;
+    font-weight: 900;
+} 
 
 
 /* Footer style */
