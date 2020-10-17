@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #262626;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+a:hover {
+    text-decoration: none;
+    color: #262626;
+}
+
+li {
+    list-style: none;
+}
+/* navigation bar */
+#bold{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#search{
+    width: 30rem;
+    /* height: 1.5rem; */
+    border: #ffff;
+}
+#search::placeholder{
+    padding: 1rem;
+    color: #C4C4C4;
+    background-image: url(../shop/search-solid.svg);
+    background-position: 28rem;
+    background-repeat: no-repeat;
+    background-size: .7rem;
+}
+#grey{
+    background-color: #F5F5F3;
+}
+#line{
+    height: .2rem;
+    width: 1rem;
+    background-color: black;
+}
+#black{
+    height: .2rem;
+    width: .6rem;
+    background-color: black;
+}
+#category{
+    color: #262626;
+}
+.shop{
+    font-size: 14px;
+}
+
+
+/* Footer style */
+#main_footer {
+    background: #F5F5F3;
+}
+#main_footer li {
+    color: #6D6D6D;
+    line-height: 25px;
+}
