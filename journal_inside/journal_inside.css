@@ -24,6 +24,9 @@ a:hover {
 li {
     list-style: none;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: DMSans-Bold;
+}
 /* navigation bar */
 #bold{
     font-weight: bolder;
@@ -62,6 +65,95 @@ li {
     font-size: 14px;
 }
 
+/* main body  */
+
+
+/* Header */
+#Header span{
+    font-size: .5rem;
+    color: #6D6D6D;
+}
+
+#admin{
+    word-spacing: .5rem;
+}
+#comments{
+    font-size: 14px;
+    color: #262626;
+}
+#time{
+    color: #767676;
+}
+.content{
+    font-size: 13px;
+    color: #767676;
+}
+.tag{
+    color: #FFFF;
+    background-color: #262626;
+    font-size: .5rem;
+}
+#reply{
+    font-size: 13px;
+}
+#form input{
+    border: none;
+    border-bottom: thin solid #F0F0F0;
+}
+#form{
+    margin-right: 15rem;
+}
+#form input::placeholder{
+    font-size: 14px;
+}
+#comments input{
+    border: none;
+}
+
+#check label{
+    font-size: 14px;
+    color:#767676;
+}
+#check{
+    border-top: thin solid #F0F0F0;
+}
+.post{
+    background-color: #262626;
+    color: #FFFF;
+}
+
+
+
+
+#text{
+    border: none;
+    border-bottom: thin solid #F0F0F0;
+    width: 21rem;
+    padding-bottom: .3rem;
+}
+#text::placeholder{
+    color: #767676;
+    font-size: .7rem;
+    background-image: url(../shop/search-solid.svg);
+    background-position: 20rem;
+    background-repeat: no-repeat;
+    background-size: .7rem;
+}
+
+#list li, #may, #categories li, #meta li{
+    font-size: .6rem;
+    list-style: disc;
+    border-bottom: thin solid #F0F0F0;
+    list-style-position: inside;
+}
+#list span{
+    color: #767676;
+}
+#tags button{
+    color: #FFFF;
+    background-color: #262626;
+    font-size: .5rem;
+}
 
 /* Footer style */
 #main_footer {
