@@ -24,6 +24,9 @@ a:hover {
 li {
     list-style: none;
 }
+.small {
+    color: #767676;
+}
 /* navigation bar */
 #bold{
     font-weight: bolder;
@@ -61,7 +64,26 @@ li {
 .shop{
     font-size: 14px;
 }
+/* Subscribe section  */
+.square-radio {
+    border: 1px solid #767676;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    position: relative;
 
+}
+.square-radio--clicked .square-radio--content{
+    margin: auto;
+    position: absolute;
+    left: 1.5px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background-color:#767676;
+    width: 10px;
+    height: 10px;
+}
 
 /* Footer style */
 #main_footer {
