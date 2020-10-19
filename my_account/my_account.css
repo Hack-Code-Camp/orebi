@@ -63,6 +63,33 @@ li {
 }
 
 
+/* Product */
+#products{
+    font-weight: 400;
+}
+#small{
+    color: #767676;
+}
+
+/* Main-Section */
+
+.line {
+    border-bottom: thin solid #f0f0f0;
+    color: #767676;
+}
+
+#main-section p {
+    font-size: 12px;
+}
+
+#main-section a,
+.deep {
+    font-weight: 700;
+    color: #262626;
+}
+
+
+
 /* Footer style */
 #main_footer {
     background: #F5F5F3;
