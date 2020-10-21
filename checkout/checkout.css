@@ -103,6 +103,9 @@ input{
     background-color: #262626;
     font-size: 14px;
 }
+.changingColor{
+    color: #767676;
+}
 #table{
     width: 50%;
 }
@@ -136,5 +139,11 @@ input{
     }
     #table{
         width: 100%;
+    }
+    h2, h5{
+        text-align: center;
+    }
+    body{
+        text-align: center;
     }
 }
