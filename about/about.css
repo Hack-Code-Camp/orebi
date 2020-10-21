@@ -24,6 +24,9 @@ a:hover {
 li {
     list-style: none;
 }
+.small {
+    color: #767676;
+}
 
 /* navigation bar */
 #bold{
