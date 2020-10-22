@@ -97,4 +97,13 @@ iframe {
     #search {
         width: 100%;
     }
+    #text-box {
+        top: 3rem; 
+        left: 2%;
+        width: 50%;
+    }
+    .add {
+        padding-left: 30%;
+        font-weight: 700;
+    }
 }
