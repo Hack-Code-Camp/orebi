@@ -24,6 +24,9 @@ a:hover {
 li {
     list-style: none;
 }
+.small {
+    color: #767676;
+}
 /* navigation bar */
 #bold{
     font-weight: bold;
@@ -66,24 +69,10 @@ input{
 }
 
 
-
-
-
-
 /* Addtional information */
-#text{
-    border: none;
-    border-bottom: thin solid #F0F0F0;
-    width: 100%;
-}
-#notes{
-    color: #767676;
-    font-size: 14px;
-}
 
 #bank{
     border: thin solid #F0F0F0;
-    font-size: 16px;
 }
 #pay{
     background-color: #F5F5F3;
@@ -101,18 +90,13 @@ input{
 #color{
     color: #ffff;
     background-color: #262626;
-    font-size: 14px;
 }
 .changingColor{
     color: #767676;
 }
 #table{
-    width: 50%;
+    width: 60%;
 }
-
-
-
-
 
 
 

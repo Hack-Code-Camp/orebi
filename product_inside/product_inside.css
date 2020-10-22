@@ -28,6 +28,9 @@ li {
 input{
     border: none;
 }
+.small {
+    color: #767676;
+}
 
 /* Bootstrap utilities */
 .five-stars svg {
@@ -96,9 +99,6 @@ input{
 }
 
 /* Product */
-#products{
-    font-weight: 400;
-}
 #small{
     color: #767676;
 }
@@ -111,8 +111,6 @@ input{
 /* product-section style  */
 .line{
    border-bottom: thin solid #f0f0f0;
-   color: #767676;
-   width: 50%;
 }
 .long-line {
     border-bottom: thin solid #f0f0f0;
