@@ -61,6 +61,59 @@ li {
 .shop{
     font-size: 14px;
 }
+input{
+    outline: none;
+}
+
+
+
+
+
+
+/* Addtional information */
+#text{
+    border: none;
+    border-bottom: thin solid #F0F0F0;
+    width: 100%;
+}
+#notes{
+    color: #767676;
+    font-size: 14px;
+}
+
+#bank{
+    border: thin solid #F0F0F0;
+    font-size: 16px;
+}
+#pay{
+    background-color: #F5F5F3;
+    color: #767676;
+}
+#personal{
+    color: #767676;
+}
+#privacy{
+    color: #262626;
+}
+.bank{
+    color: #767676;
+}
+#color{
+    color: #ffff;
+    background-color: #262626;
+    font-size: 14px;
+}
+.changingColor{
+    color: #767676;
+}
+#table{
+    width: 50%;
+}
+
+
+
+
+
 
 
 /* Footer style */
@@ -80,5 +133,17 @@ li {
     }
     #search {
         width: 100%;
+    }
+    #text{
+        width: 100%;
+    }
+    #table{
+        width: 100%;
+    }
+    h2, h5{
+        text-align: center;
+    }
+    body{
+        text-align: center;
     }
 }
