@@ -236,21 +236,22 @@
       <section id="review-section">
         <div class="container my-5">
           <div><h3>Add a Review</h3></div>
-          <div class="line pt-4">
-            <h5>Name</h5>
-            <label for="name"><input type="text" placeholder="Your name here"></label>
-          </div>
-          <div class="line pt-4">
-            <h5>Email</h5>
-            <label for="name"><input type="email" placeholder="Your email here"></label>
-          </div>
-          <div class="line pt-4 py-5">
-            <h5>Review</h5>
-            <label for="name"><input type="text" placeholder="Your review here"></label>
-          </div>
-
+          <form>
+            <div class="form-group line">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="text" class="form-control py-4" id="exampleFormControlInput1" placeholder="Your name here">
+            </div>
+            <div class="form-group line">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control py-4" id="exampleFormControlInput1" placeholder="Your email here">
+            </div>
+            <div class="form-group line">
+              <label for="exampleFormControlTextarea1">Review</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Your review here"></textarea>
+            </div>
+          </form>
           <div class="pt-3">
-            <button type="button" class="btn btn-dark px-5 py-2">Post</button>
+            <button type="button" class="btn btn-dark py-2 px-5">   Post   </button>
           </div>
         </div>
       </section>
