@@ -73,6 +73,12 @@ li {
     color: #767676;
 }
 
+aside {
+    position: absolute;
+    width: 20%;
+    left: 8%;
+}
+
 /* Shop By Category */
 
 #shopByCategory span{
@@ -168,6 +174,17 @@ margin-bottom: 2rem;
     }
     #search {
         width: 100%;
+    }
+    aside {
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+    #shopByCategory span {
+        padding-left: 15rem ;
+    }
+    #bestsellers {
+        padding-top: 90rem;
     }
 }
 
