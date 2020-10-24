@@ -114,7 +114,6 @@ li {
     border: none;
     border-bottom: thin solid #F0F0F0;
     width: 21rem;
-    padding-bottom: .3rem;
 }
 #text::placeholder{
     color: #767676;
@@ -153,5 +152,14 @@ li {
     }
     #search {
         width: 100%;
+    }
+    #main{
+        text-align: center;
+    }
+    #text::placeholder{
+        background-position: 20rem;
+    }
+    #form{
+        margin-right: 0;
     }
 }
