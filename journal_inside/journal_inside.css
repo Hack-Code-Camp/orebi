@@ -59,16 +59,13 @@ li {
 #category{
     color: #262626;
 }
-.shop{
-    font-size: 14px;
-}
+
 
 /* main body  */
 
 
 /* Header */
 #Header span{
-    font-size: .5rem;
     color: #6D6D6D;
 }
 
@@ -76,23 +73,17 @@ li {
     word-spacing: .5rem;
 }
 #comments{
-    font-size: 14px;
     color: #262626;
 }
 #time{
     color: #767676;
 }
 .content{
-    font-size: 13px;
     color: #767676;
 }
 .tag{
     color: #FFFF;
     background-color: #262626;
-    font-size: .5rem;
-}
-#reply{
-    font-size: 13px;
 }
 #form input{
     border: none;
@@ -109,7 +100,6 @@ li {
 }
 
 #check label{
-    font-size: 14px;
     color:#767676;
 }
 #check{
@@ -136,7 +126,6 @@ li {
 }
 
 #list li, #may, #categories li, #meta li{
-    font-size: .6rem;
     list-style: disc;
     border-bottom: thin solid #F0F0F0;
     list-style-position: inside;
@@ -147,9 +136,7 @@ li {
 #tags button{
     color: #FFFF;
     background-color: #262626;
-    font-size: .5rem;
 }
-
 /* Footer style */
 #main_footer {
     background: #F5F5F3;
