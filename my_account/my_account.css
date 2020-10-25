@@ -67,15 +67,15 @@ li {
 #products{
     font-weight: 400;
 }
-#small{
+.small{
     color: #767676;
 }
 
 /* Main-Section */
 #main-section {
     position: absolute;
-    bottom: 55%;
-    left: 20%;
+    bottom: 41%;
+    left: 15%;
 }
 .line {
     border-bottom: thin solid #f0f0f0;
@@ -83,7 +83,7 @@ li {
 }
 
 #main-section p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #main-section a,
@@ -117,5 +117,6 @@ li {
         position: absolute;
         left: 0;
         right: 20%;
+        bottom: 30%;
     }
 }
