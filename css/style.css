@@ -163,4 +163,11 @@ header{
     nav li {
         text-align: center;
     }
+    #search {
+        width: 100%;
+    }
+    #phone-showcase .row {
+    height: 50vh;
+    }
+
 }
