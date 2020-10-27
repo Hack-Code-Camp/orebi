@@ -123,6 +123,8 @@ header{
     left: 25px;
     background: #262626;
 }
+
+
 /* Phone-showcase section */
 #phone-showcase .row {
     background: url(../home/Image-6.png) no-repeat;
@@ -149,6 +151,8 @@ header{
     width: 100%;
 }
 
+
+
 /* Footer style */
 #main_footer {
     background: #F5F5F3;
@@ -157,6 +161,26 @@ header{
     color: #6D6D6D;
     line-height: 25px;
 }
+
+
+/* JavaScript effects style */
+.compare{
+    color: #767676;
+}
+.hover-effect{
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    background-color: #ffff;
+    display: none;
+    width: 100%;
+    
+}
+
+
+
+
+
 
 
 @media(max-width: 767px){
