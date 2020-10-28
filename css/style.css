@@ -28,19 +28,18 @@ li {
 
 /* navigation bar */
 #bold{
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1rem;
 }
 #search{
     width: 30rem;
-    /* height: 1.5rem; */
     border: #ffff;
 }
 #search::placeholder{
     padding: 1rem;
     color: #C4C4C4;
     background-image: url(/home/Icon.svg);
-    background-position: 28rem;
+    background-position: 98%;
     background-repeat: no-repeat;
     background-size: .7rem;
 }
@@ -67,7 +66,7 @@ li {
 /* SHOWCASE */
 #showcase{
      background-image: url(/home/Image-17.png); 
-     background-size: 208vh 60vh;
+     background-size: 100% 60vh;
      background-repeat: no-repeat;
      height: 60vh;
      
@@ -160,3 +159,15 @@ header{
 }
 
 
+@media(max-width: 767px){
+    nav li {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    #phone-showcase .row {
+    height: 50vh;
+    }
+
+}

@@ -18,67 +18,200 @@
 <body>
 
     <!-- NAVIGATION SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+      <div class="container px-3">
+        <a class="navbar-brand" id="bold" href="#">OREBI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav" id="nav-1">
+              <li><a href="#" class="pr-1 d-none d-md-block">EN</a></li>
+              <li><a href="#" class="pl-2 text-secondary d-none d-md-block">RU</a></li>
+            </ul>
+          </div>  
+      </div>
+  </nav>
 
-    <div id="navigation">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#" id="bold" >OREBI</a>
-           
-            <div class="collapse navbar-collapse" id="nav">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../about/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav" id="nav-1">
-                <li><a href="#" class="pr-1">EN</a></li>
-                <li><a href="#" class="pl-2 text-secondary">RU</a></li>
-              </ul>
-            </div>
-          </nav>
-      </div>
-      </div>
-  
-  
-      <!-- search bar -->
-  
-      <div id="grey">
-       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light" >
+
+  <!-- search bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="grey"> 
+      <div class="container px-3">
           <p id="Category">
-            <ul class="mr-2 mt-3">
-            <li id="line"></li>
-            <li id="black" class="mt-1"></li>
-            </ul>
-            <span class="shop">Shop By Category</span>
+              <ul class="mr-2 mt-3">
+                  <li id="line"></li>
+                  <li id="black" class="mt-1"></li>
+              </ul>
+              <span class="shop">Shop By Category</span>
           </p>
-         
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav mx-auto">
-             <input type="text" id="search" class="ml-5 p-2 small" placeholder="Search Products" >
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li><img src="../home/Shape.svg" alt="" class="mr-1"></li>
-              <li><img src="../home/Path.svg" alt=""></li>
-              <li><img src="../home/Icon_cart.svg" alt=""class="ml-5"></li>
-            </ul>
-            </nav>
-       </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li><input type="text" id="search" class="p-2 small" placeholder="Search Products" ></li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <li><img src="../home/Shape.svg" alt="" class="mr-1 d-none d-md-block"></li>
+              <li><img src="../home/Path.svg" alt="" class="mt-2 d-none d-md-block"></li>
+              <li><a href="../cart/cart.html"><img src="../home/Icon_cart.svg" alt=""class="ml-5 d-none d-md-block"></a></li>
+          </ul>
+      </div>  
+  </div>
+  </nav>
+
+  <header class="py-2">
+    <div class="container mt-5">
+      <h2>Checkout</h2>
+      <span class="small pb-5">Home > Checkout</span>
+
+      <div class="py-5 mt-4">
+        <p class="text-secondary">Have a coupon? <a href="#" class="text-body">Click here to enter your code</a></p>
+      </div>
+    </div>
+  </header>
+
+  <section id="checkout-body">
+    <div class="container">
+      <h3>Billing Details</h3>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <form>
+              <div class="form-group">
+                <label class="pl-2" for="fname">First Name*</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="fname" placeholder="First Name">
+              </div> 
+            </form>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <div class="form-group">
+                <label class="pl-2" for="lname">Last Name*</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="lname" placeholder="Last Name">
+              </div> 
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <form>
+              <div class="form-group">
+                <label class="pl-2" for="company">Companye Name (optional)</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="company" placeholder="Company Name">
+              </div> 
+              <div class="form-group">
+                <label class="pl-2" for="country">Country *</label>
+                <select type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom" id="country">
+                  <option value=" " class="small ">Please select</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="pl-2" for="street-address">Street Address *</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="streetaddress" placeholder="House number and street name">
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" placeholder="Apartment, suite, unit etc. (optional)">
+              </div> 
+              <div class="form-group">
+                <label class="pl-2" for="city">Town/City *</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="city" placeholder="Town/City">
+              </div> 
+              <div class="form-group">
+                <label class="pl-2" for="county">County (optional)</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="county" placeholder="Company Name">
+              </div> 
+              <div class="form-group">
+                <label class="pl-2" for="post-code">Post Code *</label>
+                <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="post-code" placeholder="Post Code">
+              </div> 
+              <div class="form-group">
+                <label class="pl-2" for="phone">Phone *</label>
+                <input type="tel" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="phone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label class="pl-2" for="email">Email address *</label>
+                <input type="email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="email" placeholder="Email">
+              </div> 
+            </form>
+          </div>
+        </div>
+
+      <!-- Additional information -->
+      <h3 class="mb-md-5 mt-5">Additional Information</h3>
+      <p>Other  Notes (Optional)</p>
+      <div class="row">
+        <div class="col-md-8">
+          <textarea type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="message" rows="4">Notes about your order, e.g. special notes for delivery.</textarea>
+        </div>
       </div>
 
+      <!-- Your order -->
+      <h3 class="mt-md-5 mb-md-4 mb-4">Your Order</h3>
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table table-bordered table-sm" id="table">
+            <tbody>
+              <thead>
+                <tr>
+                  <th scope="col" class="pl-2">Product</th>
+                  <th scope="col" class="pl-2 changingColor">Total</th>
+                </tr>
+              </thead>
+              <tr>
+                <th scope="row" class="pl-2">Product x 1</th>
+                <td class="pl-2 changingColor">389.99 $</td>
+              </tr>
+              <tr>
+                <th scope="row" class="pl-2">Subtotal</th>
+                <td class="pl-2">389.99 $</td>
+              </tr>
+              <tr>
+                <th scope="row" class="pl-2">Total</th>
+                <td class="pl-2">389.99 $</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-8">
+          <!-- bank -->
+          <form class="mt-md-5" id="bank">
+            <div class="p-md-3 p-2">
+              <input type="radio" name="bank" class="mb-md-3" checked> 
+              <label for="Bank">Bank</label>
+              <p id="pay" class="px-md-3 py-md-2 mr-md-5 mx-2 p-2">Pay via Bank; you can pay with your credit card if you don’t have a Bank account.</p>
+             
+             <input type="radio" name="bank">
+             <label for="Bank 2"> <span class="bank">Bank 2</span></label> 
+             <p id="personal" class="mr-md-5">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <span id="privacy">privacy policy.</span></p>
+             
+             <button class="btn rounded-0 px-md-3" id="color">Proceed to Bank</button>
+           </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
         <!-- Main-Footer -->
@@ -87,11 +220,11 @@
       <div class="row">
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">MENU</h5> 
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Journal</a></li> 
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop/shop.html">Shop</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li><a href="../contacts/contacts.html">Contact</a></li>
+          <li><a href="../journal/journal.html">Journal</a></li> 
         </div>
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">SHOP</h5>

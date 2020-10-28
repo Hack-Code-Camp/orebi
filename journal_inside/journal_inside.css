@@ -24,12 +24,10 @@ a:hover {
 li {
     list-style: none;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: DMSans-Bold;
-}
+
 /* navigation bar */
 #bold{
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1rem;
 }
 #search{
@@ -41,7 +39,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 1rem;
     color: #C4C4C4;
     background-image: url(../shop/search-solid.svg);
-    background-position: 28rem;
+    background-position: 98%;
     background-repeat: no-repeat;
     background-size: .7rem;
 }
@@ -61,16 +59,13 @@ h1, h2, h3, h4, h5, h6{
 #category{
     color: #262626;
 }
-.shop{
-    font-size: 14px;
-}
+
 
 /* main body  */
 
 
 /* Header */
 #Header span{
-    font-size: .5rem;
     color: #6D6D6D;
 }
 
@@ -78,23 +73,17 @@ h1, h2, h3, h4, h5, h6{
     word-spacing: .5rem;
 }
 #comments{
-    font-size: 14px;
     color: #262626;
 }
 #time{
     color: #767676;
 }
 .content{
-    font-size: 13px;
     color: #767676;
 }
 .tag{
     color: #FFFF;
     background-color: #262626;
-    font-size: .5rem;
-}
-#reply{
-    font-size: 13px;
 }
 #form input{
     border: none;
@@ -111,7 +100,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #check label{
-    font-size: 14px;
     color:#767676;
 }
 #check{
@@ -122,14 +110,10 @@ h1, h2, h3, h4, h5, h6{
     color: #FFFF;
 }
 
-
-
-
 #text{
     border: none;
     border-bottom: thin solid #F0F0F0;
     width: 21rem;
-    padding-bottom: .3rem;
 }
 #text::placeholder{
     color: #767676;
@@ -141,7 +125,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #list li, #may, #categories li, #meta li{
-    font-size: .6rem;
     list-style: disc;
     border-bottom: thin solid #F0F0F0;
     list-style-position: inside;
@@ -152,9 +135,7 @@ h1, h2, h3, h4, h5, h6{
 #tags button{
     color: #FFFF;
     background-color: #262626;
-    font-size: .5rem;
 }
-
 /* Footer style */
 #main_footer {
     background: #F5F5F3;
@@ -162,4 +143,23 @@ h1, h2, h3, h4, h5, h6{
 #main_footer li {
     color: #6D6D6D;
     line-height: 25px;
+}
+
+
+@media(max-width: 767px){
+    nav li {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    #main{
+        text-align: center;
+    }
+    #text::placeholder{
+        background-position: 20rem;
+    }
+    #form{
+        margin-right: 0;
+    }
 }

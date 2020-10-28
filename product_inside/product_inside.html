@@ -19,69 +19,72 @@
 
     <!-- NAVIGATION SECTION -->
 
-    <div id="navigation">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#" id="bold" >OREBI</a>
-           
-            <div class="collapse navbar-collapse" id="nav">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../about/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav" id="nav-1">
-                <li><a href="#" class="pr-1">EN</a></li>
-                <li><a href="#" class="pl-2 text-secondary">RU</a></li>
-              </ul>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+      <div class="container px-3">
+        <a class="navbar-brand" id="bold" href="#">OREBI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav" id="nav-1">
+              <li><a href="#" class="pr-1 d-none d-md-block">EN</a></li>
+              <li><a href="#" class="pl-2 text-secondary d-none d-md-block">RU</a></li>
+            </ul>
+          </div>  
       </div>
-      </div>
-  
-  
-      <!-- search bar -->
-  
-      <div id="grey">
-       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light" >
+  </nav>
+
+
+  <!-- search bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="grey"> 
+      <div class="container px-3">
           <p id="Category">
-            <ul class="mr-2 mt-3">
-            <li id="line"></li>
-            <li id="black" class="mt-1"></li>
-            </ul>
-            <span class="shop">Shop By Category</span>
+              <ul class="mr-2 mt-3">
+                  <li id="line"></li>
+                  <li id="black" class="mt-1"></li>
+              </ul>
+              <span class="shop">Shop By Category</span>
           </p>
-         
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav mx-auto">
-             <input type="text" id="search" class="ml-5 p-2 small" placeholder="Search Products" >
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li><img src="../home/Shape.svg" alt="" class="mr-1"></li>
-              <li><img src="../home/Path.svg" alt=""></li>
-              <li><img src="../home/Icon_cart.svg" alt=""class="ml-5"></li>
-            </ul>
-            </nav>
-       </div>
-      </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li><input type="text" id="search" class="p-2 small" placeholder="Search Products" ></li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <li><img src="../home/Shape.svg" alt="" class="mr-1 d-none d-md-block"></li>
+              <li><img src="../home/Path.svg" alt="" class="mt-2 d-none d-md-block"></li>
+              <li><a href="../cart/cart.html"><img src="../home/Icon_cart.svg" alt=""class="ml-5 d-none d-md-block"></a></li>
+          </ul>
+      </div>  
+  </div>
+  </nav>
 
       <!-- PRODUCT -->
       <div id="header">
         <div class="container mt-5 mb-5">
-          <h2 id="products">Products</h2>
+          <h2>Products</h2>
           <span id="small" class="small">Home > Products</span>
         </div>
       </div>
@@ -110,97 +113,98 @@
       <!-- Product-section  -->
       <section id="product-section">
         <div class="container">
-          <h1>Product</h1>
-          <div class="five-stars">
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-            </svg>
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-            </svg>
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-            </svg>
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-            </svg>
-            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-            </svg>  <span class="pl-5">1 Review</span>
-          </div>
-
-          <div class="money line py-3">
-            <span class="pr-5">$88.00</span> $44.00
-          </div>
-
-          <div class="color-circles pt-3">
-            COLOR: <span class="pl-4">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class=" color-1 bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="8"/>
-              </svg>
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-2 bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="8"/>
-              </svg>
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-3 bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="8"/>
-              </svg>
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-4 bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="8"/>
-              </svg>
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-5 bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="8" cy="8" r="8"/>
-              </svg>
-                  </span>
-          </div>
-
-          <div class="size py-4">
-            SIZE:
-            <span class="px-5">
-              <select class="rounded-0 border pxy-1 pl-2 pr-5 ml-2 mb-3">
-                <option selected class="small">S</option>
-              </select>
-            </span>
-          </div>
-
-          <div class="quantity line pb-4">
-            QUANTITY:
-            <span><button class="qty-btn btn btn-white"> - <span class="px-4">1</span> +</button></span>
-          </div>
-
-          <div class="status line py-4">
-            STATUS: <span>In stock </span>
-          </div>
-
-          <div class="buttons line py-4">
-            <button type="button" class="btn btn-white px-3 py-2">Add to Wish List</button>
-            <button type="button" class="btn btn-dark px-5 py-2">Add to Cart</button>
-          </div>
-
-          <div class="features line py-4">
-            FEATURES & DETAILS <span><a href="#">+</a></span>
-          </div>
-
-          <div class="shipping line py-4">
-            SHIPPING & RETURNS <span><a href="#">+</a></span>
-          </div>
-
+          <h3>Product</h3>
           <div class="row">
-            <div class="col-md-6 py-2">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="col-md-6">
+              <div class="five-stars">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>  <span class="pl-5 small">1 Review</span>
+              </div>
             </div>
           </div>
-
+          <div class="row">
+            <div class="col-md-6">
+              <div class="money line py-3">
+                <span class="pr-5 small">$88.00</span> $44.00
+              </div>
+    
+              <div class="color-circles pt-3">
+                COLOR: <span class="pl-4">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-1 bi mr-2 bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                  </svg>
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-2 bi mr-2 bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                  </svg>
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-3 bi mr-2 bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                  </svg>
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-4 bi mr-2 bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                  </svg>
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="color-5 bi mr-2 bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8"/>
+                  </svg>
+                      </span>
+              </div>
+    
+              <div class="size py-4">
+                SIZE:
+                <span class="px-5">
+                  <select class="rounded-0 border pxy-1 pl-2 pr-5 ml-2 mb-3">
+                    <option selected class="small">S</option>
+                  </select>
+                </span>
+              </div>
+    
+              <div class="quantity line pb-4">
+                QUANTITY:
+                <span><button class="qty-btn btn border rounded-0 ml-3 btn-white"> - <span class="px-4">1</span> +</button></span>
+              </div>
+    
+              <div class="status line py-4">
+                STATUS: <span class="pl-3">In stock </span>
+              </div>
+    
+              <div class="buttons line py-4">
+                <button type="button" class="btn rounded-0 btn-white px-3 py-2">Add to Wish List</button>
+                <button type="button" class="btn rounded-0 ml-2 btn-dark px-5 py-2">Add to Cart</button>
+              </div>
+    
+              <div class="features line py-4">
+                FEATURES & DETAILS <span><a href="#">+</a></span>
+              </div>
+    
+              <div class="shipping line py-4">
+                SHIPPING & RETURNS <span><a href="#" class="pl-2">+</a></span>
+              </div>
+              <p class="small py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
       </section>
 
       <section id="description-section">
         <div class="container py-5">
           <div class="long-line">
-            Description  <span>Reviews (1)</span>
+            Description  <span class="pl-5 text-body">Reviews (1)</span>
             <p class="pt-5">1 review for Product</p>
           </div>
-          <div class="row">
-            <div class="col-md-1 pt-2">
-              <h6>John Ford</h6>
+          <div class="row pt-2">
+            <div class="col-md-2 ">
+              <p>John Ford</p>
             </div>
             <div class=" col-md-2 five-stars">
               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -219,41 +223,44 @@
                 <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
               </svg>
             </div>
-            <div class="col-md-7"></div>
+            <div class="col-md-6"></div>
             <div class="col-md-2"><p>6 months ago</p></div>
           </div>
 
           <div class="long-line pb-3">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
           </div>
 
         </div>
       </section>
 
       <section id="review-section">
-        <div class="container my-5">
-          <div><h3>Add a Review</h3></div>
-          <div class="line pt-4">
-            <h5>Name</h5>
-            <label for="name"><input type="text" placeholder="Your name here"></label>
+        <div class="container my-2">
+          <div>
+            <h5 class="pb-3">Add a Review</h5>
           </div>
-          <div class="line pt-4">
-            <h5>Email</h5>
-            <label for="name"><input type="email" placeholder="Your email here"></label>
-          </div>
-          <div class="line pt-4 py-5">
-            <h5>Review</h5>
-            <label for="name"><input type="text" placeholder="Your review here"></label>
-          </div>
-
-          <div class="pt-3">
-            <button type="button" class="btn btn-dark px-5 py-2">Post</button>
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <label class="pl-2" for="name">Name</label>
+                  <input type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="name" placeholder="Your name here">
+                </div> 
+                <div class="form-group">
+                  <label class="pl-2" for="email">Email</label>
+                  <input type="email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="email" placeholder="Your email here">
+                </div>
+                <div class="form-group">
+                  <label class="pl-2" for="review">Message</label>
+                  <textarea type="text" class="form-control rounded-0 border-top-0 border-right-0 border-left-0 border-bottom small" id="review" rows="3">Your review here</textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-dark my-4 rounded-0 px-5 py-1 text-white">Post</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
-
-
-
 
       <!-- Main-Footer -->
 <footer id="main_footer">
@@ -261,11 +268,11 @@
       <div class="row">
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">MENU</h5> 
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Journal</a></li> 
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop/shop.html">Shop</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li><a href="../contacts/contacts.html">Contact</a></li>
+          <li><a href="../journal/journal.html">Journal</a></li> 
         </div>
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">SHOP</h5>

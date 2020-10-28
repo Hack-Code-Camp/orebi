@@ -18,66 +18,66 @@
 <body>
 
     <!-- NAVIGATION SECTION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+      <div class="container px-3">
+        <a class="navbar-brand" id="bold" href="#">OREBI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav" id="nav-1">
+              <li><a href="#" class="pr-1 d-none d-md-block">EN</a></li>
+              <li><a href="#" class="pl-2 text-secondary d-none d-md-block">RU</a></li>
+            </ul>
+          </div>  
+      </div>
+  </nav>
 
-    <div id="navigation">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#" id="bold" >OREBI</a>
-           
-            <div class="collapse navbar-collapse" id="nav">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../shop/shop.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../about/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav" id="nav-1">
-                <li><a href="#" class="pr-1">EN</a></li>
-                <li><a href="#" class="pl-2 text-secondary">RU</a></li>
-              </ul>
-            </div>
-          </nav>
-      </div>
-      </div>
-  
-  
-      <!-- search bar -->
-  
-      <div id="grey">
-       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light" >
+   <nav class="navbar navbar-expand-lg navbar-light" id="grey"> 
+      <div class="container px-3">
           <p id="Category">
-            <ul class="mr-2 mt-3">
-            <li id="line"></li>
-            <li id="black" class="mt-1"></li>
-            </ul>
-            <span class="shop">Shop By Category</span>
+              <ul class="mr-2 mt-3">
+                  <li id="line"></li>
+                  <li id="black" class="mt-1"></li>
+              </ul>
+              <span class="shop">Shop By Category</span>
           </p>
-         
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav mx-auto">
-             <input type="text" id="search" class="ml-5 p-2 small" placeholder="Search Products" >
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li><img src="../home/Shape.svg" alt="" class="mr-1"></li>
-              <li><img src="../home/Path.svg" alt=""></li>
-              <li><img src="../home/Icon_cart.svg" alt=""class="ml-5"></li>
-            </ul>
-            </nav>
-       </div>
-      </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+              <li><input type="text" id="search" class="p-2 small" placeholder="Search Products" ></li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+              <li><img src="../home/Shape.svg" alt="" class="mr-1 d-none d-md-block"></li>
+              <li><img src="../home/Path.svg" alt="" class="mt-2 d-none d-md-block"></li>
+              <li><a href="../cart/cart.html"><img src="../home/Icon_cart.svg" alt=""class="ml-5 d-none d-md-block"></a></li>
+          </ul>
+      </div>  
+  </div>
+  </nav>
 
+  <!-- search bar -->
 <!--Main body-->
 <section>
   <div class="container">
@@ -107,7 +107,7 @@
                   <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
                 <img src="../cart/Image-4.png" width="145px" height="98px">
-                <p style="margin-left: 0.5rem; margin-top: 2rem; font-family: DMSans-Bold;">product name</p>
+                <p style="margin-left: 0.5rem; margin-top: 2rem;">product name</p>
               </div>
             </div>
           </td>
@@ -118,6 +118,7 @@
             <div class="quantity buttons_added">
               <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
             </div>
+
 
             </div>
           </td>
@@ -157,11 +158,11 @@
       <div class="row">
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">MENU</h5> 
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Journal</a></li> 
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../shop/shop.html">Shop</a></li>
+          <li><a href="../about/about.html">About</a></li>
+          <li><a href="../contacts/contacts.html">Contact</a></li>
+          <li><a href="../journal/journal.html">Journal</a></li> 
         </div>
         <div class="col-md-2 text-md-left text-center">
           <h5 class="py-5">SHOP</h5>

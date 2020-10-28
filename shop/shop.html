@@ -17,67 +17,69 @@
 </head>
 <body>
 
-    <!-- NAVIGATION SECTION -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+    <div class="container px-3">
+      <a class="navbar-brand" id="bold" href="#">OREBI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../about/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" id="nav-1">
+            <li><a href="#" class="pr-1 d-none d-md-block">EN</a></li>
+            <li><a href="#" class="pl-2 text-secondary d-none d-md-block">RU</a></li>
+          </ul>
+        </div>  
+    </div>
+</nav>
 
-    <div id="navigation">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#" id="bold" >OREBI</a>
-           
-            <div class="collapse navbar-collapse" id="nav">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link px-3" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../about/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../contacts/contacts.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-3" href="../journal/journal.html">Journal</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav" id="nav-1">
-                <li><a href="#" class="pr-1">EN</a></li>
-                <li><a href="#" class="pl-2 text-secondary">RU</a></li>
-              </ul>
-            </div>
-          </nav>
-      </div>
-      </div>
-  
-  
-      <!-- search bar -->
-  
-      <div id="grey">
-       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light" >
-          <p id="Category">
+
+<!-- search bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light" id="grey"> 
+    <div class="container px-3">
+        <p id="Category">
             <ul class="mr-2 mt-3">
-            <li id="line"></li>
-            <li id="black" class="mt-1"></li>
+                <li id="line"></li>
+                <li id="black" class="mt-1"></li>
             </ul>
             <span class="shop">Shop By Category</span>
-          </p>
-         
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav mx-auto">
-             <input type="text" id="search" class="ml-5 p-2 small" placeholder="Search Products" >
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li><img src="../home/Shape.svg" alt="" class="mr-1"></li>
-              <li><img src="../home/Path.svg" alt=""></li>
-              <li><img src="../home/Icon_cart.svg" alt=""class="ml-5"></li>
-            </ul>
-            </nav>
-       </div>
-      </div>
-
+        </p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li><input type="text" id="search" class="p-2 small" placeholder="Search Products" ></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li><img src="../home/Shape.svg" alt="" class="mr-1 d-none d-md-block"></li>
+            <li><img src="../home/Path.svg" alt="" class="mt-2 d-none d-md-block"></li>
+            <li><a href="../cart/cart.html"><img src="../home/Icon_cart.svg" alt=""class="ml-5 d-none d-md-block"></a></li>
+        </ul>
+    </div>  
+</div>
+</nav>
+  
+  
       <!-- PRODUCT -->
       <div id="header">
         <div class="container mt-5 mb-5">
@@ -86,7 +88,7 @@
         </div>
       </div>
 
-  <aside class="position-absolute" style="left: 8%; width: 20%;">
+  <aside class="text-md-left">
     <div class="container">
     <!-- Shop By Category -->
       <div id="shopByCategory" class="">
@@ -187,7 +189,7 @@
               </div>
               <div class="col-md-3">
                 <svg  class="mr-3 bg-dark text-white p-2" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-grid" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                  <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
                 </svg>
                 <svg class="border p-1" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-list-ul" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
@@ -448,11 +450,11 @@
     <div class="row">
       <div class="col-md-2 text-md-left text-center">
         <h5 class="py-5">MENU</h5> 
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Journal</a></li> 
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../shop/shop.html">Shop</a></li>
+        <li><a href="../about/about.html">About</a></li>
+        <li><a href="../contacts/contacts.html">Contact</a></li>
+        <li><a href="../journal/journal.html">Journal</a></li> 
       </div>
       <div class="col-md-2 text-md-left text-center">
         <h5 class="py-5">SHOP</h5>

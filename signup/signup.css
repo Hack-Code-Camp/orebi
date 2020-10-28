@@ -29,7 +29,7 @@ li {
 }
 /* navigation bar */
 #bold{
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1rem;
 }
 #search{
@@ -41,7 +41,7 @@ li {
     padding: 1rem;
     color: #C4C4C4;
     background-image: url(../shop/search-solid.svg);
-    background-position: 28rem;
+    background-position: 98%;
     background-repeat: no-repeat;
     background-size: .7rem;
 }
@@ -92,4 +92,13 @@ li {
 #main_footer li {
     color: #6D6D6D;
     line-height: 25px;
+}
+
+@media(max-width: 767px){
+    nav li {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
 }
