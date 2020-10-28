@@ -63,6 +63,37 @@ li {
     font-size: 14px;
 }
 
+
+/* NAVIGATION DROPDOWN HOVER */
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    left: 78%;
+    width: inherit;
+    display: none;
+    padding-top: 2rem;
+}
+ul li ul li { 
+    display: block; 
+}
+ul li ul li a {display:block !important;} 
+
+.white-btn {
+    background-color: #ffffff;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+.black-btn {
+    padding-left: 3.5rem;
+    padding-right: 2.7rem;
+}
+
 /* SHOWCASE */
 #showcase{
      background-image: url(/home/Image-17.png); 
