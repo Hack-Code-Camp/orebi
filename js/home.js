@@ -1,19 +1,33 @@
 // Variables
-let hoverState = document.querySelector(".imageForEffect");
-let hoverEffect = document.querySelector(".hover-effect");
+const Arrivals = document.getElementById("newarrivals");
+
+const hoverState = document.querySelectorAll(".imageForEffect");
+
+const hoverEffect = document.querySelectorAll(".hover-effect");
+
 
 
 
 // EventListener
 
-    hoverState.addEventListener("mouseover", display);
-    hoverState.addEventListener("mouseout" , hide);
+    hoverState.forEach(card =>{
+         card.addEventListener('mouseover', display);
+         card.addEventListener("mouseout" , hide);
+    })
+
 
 
     // Function
- function display(){
-     hoverEffect.style.display = "block"
+ function display(e){
+    if(e.target.classList.contains("imageForEffect")){
+         e.target.nextElementSibling.nextElementSibling.style.display = "block";
+     }
  }
- function hide(){
-     hoverEffect.style.display = "none";
+  function hide(e){
+     if(e.target.classList.contains("imageForEffect")){
+        e.target.nextElementSibling.nextElementSibling.style.display = "none";
+    }
  }
+
+
+
