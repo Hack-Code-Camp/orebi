@@ -60,6 +60,34 @@ li {
     color: #262626;
 }
 
+/* NAVIGATION HOVERING DROPDOWN */
+.collapse ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.collapse ul li {display: inline-block;}
+.collapse ul li:hover ul {display: block;}
+.collapse ul li ul {
+    position: absolute;
+    left: 78%;
+    width: inherit;
+    display: none;
+}
+.collapse ul li ul li { 
+    display: block; 
+}
+.collapse ul li ul li a {display:block !important;} 
+
+.white-btn {
+    background-color: #ffffff;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+.black-btn {
+    padding-left: 3.5rem;
+    padding-right: 2.7rem;
+}
 
 /* main body  */
 

@@ -1,9 +1,13 @@
 // Variables
+
 const Arrivals = document.getElementById("newarrivals");
 
 const hoverState = document.querySelectorAll(".imageForEffect");
 
 const hoverEffect = document.querySelectorAll(".hover-effect");
+
+const products = document.getElementById("product");
+
 
 
 
