@@ -20,7 +20,7 @@
     <!-- NAVIGATION SECTION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white"> 
       <div class="container px-3">
-        <a class="navbar-brand" id="bold" href="#">OREBI</a>
+        <a class="navbar-brand" id="bold" href="../index.html">OREBI</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -94,95 +94,140 @@
 
 
 <section class="mt-5">
-  <div  class="container">
-<div style="border: 1px solid #F0F0F0;" class="cart">
-  <div class="table-responsive">
-    <table style="border-bottom: 1px solid #F0F0F0;" class="table">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" class="text-black">Product</th>
-          <th scope="col" class="text-black">Price</th>
-          <th scope="col" class="text-black">Quantity</th>
-          <th scope="col" class="text-black">Total</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div class="main" style="padding-top: 2rem;">
-              <div class="d-flex">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="margin-top: 2.5rem; margin-right: 1.5rem; ">
-                  <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-                <img src="../cart/Image-4.png" width="145px" height="98px">
-                <p style="margin-left: 0.5rem; margin-top: 2rem;">product name</p>
+  <div class="container">
+    <div class="" style="border: 1px solid #F0F0F0; overflow-x: auto;">
+      <table style="border-bottom: 1px solid #F0F0F0;" class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col" class="text-black">Product</th>
+            <th scope="col" class="text-black">Price</th>
+            <th scope="col" class="text-black">Quantity</th>
+            <th scope="col" class="text-black">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="main" style="padding-top: 2rem;">
+                <div class="d-flex">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="margin-top: 2.5rem; margin-right: 1.5rem; ">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                  <img src="../cart/Image-4.png">
+                  <p style="margin-left: 0.5rem; margin-top: 2rem;">product name</p>
+                </div>
               </div>
-            </div>
-          </td>
-          <td style="padding-top: 4rem;">
-            $44.00
-          </td>
-          <td style="padding-top: 3.5rem;">
-            <div class="quantity buttons_added">
-              <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
-            </div>
-
-
-            </div>
-          </td>
-          <td style="padding-top: 4rem;">
-            $44.00
-          </td>
-        </tr>
-      
-      </tbody>
-    </table>
-        
-      <div style="padding-bottom: 2rem; padding-left: 2rem; border-bottom: 1px solid #F0F0F0;" class="dropdown">
-        <button style="width: 255px; height: 50px; text-align: left; padding-left: 1rem;" class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" datatoggle="dropdown" aria-haspopup="true"
-       aria-expanded="false">Size</button>
-       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action One</a>
-        <a class="dropdown-item" href="#">Action Two</a>
-        <a class="dropdown-item" href="#">Action Three</a>
-       </div>
-       
-       
-      <span style="margin-left: 1rem;">Apply coupon</span>
-       <span style="margin-left: 37rem;">Update cart</span>
+            </td>
+            <td style="padding-top: 4rem;">
+              $44.00
+            </td>
+            <td style="padding-top: 3.5rem;">
+              <div class="quantity buttons_added">
+                <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="10" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+            </td>
+            <td style="padding-top: 4rem;">
+              $44.00
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="padding-bottom: 2rem; padding-left: 2rem;" class="dropdown">
+        <select class="select">
+         <option>Size</option>
+        </select> 
+        <span style="margin-left: 1rem;"><a href="#">Apply coupon</a></span>
+        <span id="update"><a href="../shop/shop.html">Update cart</a></span>
       </div>
-      <span style="float: right;">
-        <h3 style="text-align: right; padding: 1rem;">Cart totals</h3>
-        <table style="margin-bottom: 2rem;" class="table-bordered">
-          <tr>
-            <td style="width: 320px; height: 54px; color: #262626;">Subtotal</td>
-            <td style="width: 325px; height: 54px; color: #767676;">389.99 $</td>
-          </tr>
-          <tr>
-            <td style="width: 325px; height: 54px; color: #262626;">Total</td>
-            <td style="width: 325px; height: 54px; color: #262626;">389.99 $</td>
-          </tr>
+    </div>
+  </div>
+</section>
 
-        </table>
-        
-        <button style=
-        "float: right; 
-        width: 200px; 
-        height: 50px;
-         background: #262626 0% 0% no-repeat padding-box; 
-         text-align: center;
-        letter-spacing: 0px;
-        color: #FFFFFF;">
-          
-          Proceed to Checkout
-        
-        </button>
-      </span>
-</div>
+<section id="new-section">
+  <div class="container">
+    <div class="right">
+      <h3 class="text-center text-md-right py-5">Cart totals</h3>
+      <table class="right-table table-bordered mb-5">
+        <tr>
+          <td>Subtotal</td>
+          <td>389.99 $</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>389.99 $</td>
+        </tr>
+      </table>
+      <a class="black-btn btn btn-dark rounded-0 py-3 px-3" href="../checkout/checkout.html" role="button">Proceed to Checkout</a></li>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section>
+  <div class="container">
+    <div class="table-responsive">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#">X</a>
+              <img src="../cart/Image-4.png" alt="">
+              product name
+            </td>
+            <td>$44.00</td>
+            <td><nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">-</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">+</a></li>
+              </ul>
+            </nav></td>
+            <td>$44.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section><div class="container">
+  <div class="row">
+    <div class="col">Product</div>
+    <div class="col">Price</div>
+    <div class="col">Quantity</div>
+    <div class="col">Total</div>
+  </div>
+  <div class="row">
+    <div class="col">
+      X
+      <img src="../cart/Image-4.png" alt="" style="width: 65px;">
+      product name
+    </div>
+    <div class="col">$44.00</div>
+    <div class="col">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">-</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">+</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col">$44.00</div>
   </div>
 </div>
 
-</section>
+<section>
+  <div class="container">
+
+  </div>
+</section> -->
 
         <!-- Main-Footer -->
 <footer id="main_footer">
