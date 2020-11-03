@@ -64,7 +64,10 @@ li {
 .shop{
     font-size: 14px;
 }
-/**/
+/*table*/
+tbody img {
+    width: 70px;
+}
 /* -- quantity box -- */
 
 .quantity {
@@ -150,6 +153,25 @@ li {
     padding-left: 3.5rem;
     padding-right: 2.7rem;
 }
+.select {
+    width: 150px;
+}
+#update {
+    margin-left: 60rem;
+}
+.right a {
+    position: relative;
+    left: 88%;
+}
+.right-table {
+    position: relative;
+    left: 54%;
+}
+.right-table td {
+    width: 255px;
+    height: 35px;
+    padding-left: 1rem;
+}
 
 /* Footer style */
 #main_footer {
@@ -166,5 +188,24 @@ li {
     }
     #search {
         width: 100%;
+    }
+    #update {
+        margin-left: 0.5rem;
+    }
+    .select {
+        width: 100px;
+    }
+    .right-table {
+        position: relative;
+        left: 0;
+    }
+    .right a {
+        position: relative;
+        left: 33%;
+    }
+    .right-table td {
+        width: 150px;
+        height: 35px;
+        padding-left: 1rem;
     }
 }
