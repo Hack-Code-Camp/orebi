@@ -37,7 +37,7 @@ li {
 }
 #search::placeholder{
     padding: 1rem;
-    color: #e24747;
+    color: #C4C4C4;
     background-image: url(/home/Icon.svg);
     background-position: 98%;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ li {
 .collapse ul li:hover ul {display: block;}
 .collapse ul li ul {
     position: absolute;
-    left: 78%;
+    left: 80%;
     width: inherit;
     display: none;
 }
@@ -224,5 +224,5 @@ header{
     #phone-showcase .row {
     height: 55vh;
     }
-
+    
 }

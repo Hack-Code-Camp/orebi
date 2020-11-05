@@ -143,7 +143,7 @@ tbody img {
 .collapse ul li:hover ul {display: block;}
 .collapse ul li ul {
     position: absolute;
-    left: 78%;
+    left: 80%;
     width: inherit;
     display: none;
 }

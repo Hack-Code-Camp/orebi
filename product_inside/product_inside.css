@@ -109,7 +109,7 @@ input{
 .collapse ul li:hover ul {display: block;}
 .collapse ul li ul {
     position: absolute;
-    left: 78%;
+    left: 80%;
     width: inherit;
     display: none;
 }
@@ -177,4 +177,12 @@ input{
     #search {
         width: 100%;
     }
+    .shipping span {
+        padding-left: 9rem;
+        font-weight: 900;
+    }
+    .features span {
+        padding-left: 10rem;
+        font-weight: 900;
+    } 
 }
