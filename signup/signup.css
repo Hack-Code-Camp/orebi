@@ -99,18 +99,18 @@ li {
 .square-radio {
     border: 1px solid #767676;
     margin: 2px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     position: relative;
 
 }
 .square-radio--clicked .square-radio--content{
     margin: auto;
     position: absolute;
-    left: 1.5px;
-    right: 1px;
-    top: 1px;
-    bottom: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background-color:#767676;
     width: 10px;
     height: 10px;
