@@ -146,6 +146,15 @@ header{
     font-size: 23px;
     font-weight: bold;
 }
+/* phones */
+.phone1 {
+    top: 40%;
+    left: 40px;
+}
+.phone2 {
+    top: 30px;
+    left: 40px;
+}
 
 /* Product grid */
 .overlay-text {
@@ -221,6 +230,11 @@ header{
     #search {
         width: 100%;
     }
+    #showcase{
+        /* background-image: none; */
+        background-size: 500px 60vh;
+        background-position: top right;
+    }
     #phone-showcase .row {
     height: 55vh;
     }
@@ -229,5 +243,11 @@ header{
         left: 55%;
         width: inherit;
         display: none;
+    }
+    .phone1 {
+        top: 20%;
+    }
+    .phone2 {
+        top: 1%;
     }
 }
